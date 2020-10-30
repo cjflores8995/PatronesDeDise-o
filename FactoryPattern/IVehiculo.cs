@@ -8,8 +8,9 @@ namespace FactoryPattern
 {
     interface IVehiculo
     {
-        void Encender();
+        void Caracteristicas();
         void Acelerar();
+        void Encender();
         void Frenar();
         void Girar();
     }

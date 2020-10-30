@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{BDB34518-09CD-4046-9BF9-3A4D2CA1394C}</ProjectGuid>
+    <ProjectGuid>{1FDDF89F-3365-4E9C-81C6-5F55EF5EABC9}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>FactoryPattern</RootNamespace>
-    <AssemblyName>FactoryPattern</AssemblyName>
+    <RootNamespace>FactoryPattern_Facturas</RootNamespace>
+    <AssemblyName>FactoryPattern-Facturas</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -22,6 +22,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <LangVersion>8.0</LangVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -31,9 +32,11 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <LangVersion>8.0</LangVersion>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -43,18 +46,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CAuto.cs" />
-    <Compile Include="CAvion.cs" />
-    <Compile Include="CBici.cs" />
-    <Compile Include="CCreador.cs" />
-    <Compile Include="IVehiculo.cs" />
+    <Compile Include="CFacturaManabi.cs" />
+    <Compile Include="CFacturaConImpuestos.cs" />
+    <Compile Include="CFacturaCreator.cs" />
+    <Compile Include="CFacturaSinImpuestos.cs" />
+    <Compile Include="CommonEnums.cs" />
+    <Compile Include="IFactura.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\.editorconfig">
-      <Link>.editorconfig</Link>
-    </None>
     <None Include="App.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
