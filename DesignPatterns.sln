@@ -16,6 +16,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryPattern-02-ConexionD
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFactoryPattern-01-Leccion01", "AbstractFactoryPattern-01-Leccion01\AbstractFactoryPattern-01-Leccion01.csproj", "{27AB2776-A41D-461B-8C72-0C5A89F97813}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFactoryPattern-02-Animales", "AbstractFactoryPattern-02-Animales\AbstractFactoryPattern-02-Animales.csproj", "{7B6F23E4-76DA-4C25-A081-2641E1706273}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFactoryPattern-03-Phones", "AbstractFactoryPattern-03-Phones\AbstractFactoryPattern-03-Phones.csproj", "{0C7451F1-5360-4631-B62D-BEC706A73660}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFactoryPattern-04-Vehiculos", "AbstractFactoryPattern-04-Vehiculos\AbstractFactoryPattern-04-Vehiculos.csproj", "{7DF1AA97-BF96-4ABB-9A8F-472E5C308D7C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFactoryPattern-05-Muebleria", "AbstractFactoryPattern-05-Muebleria\AbstractFactoryPattern-05-Muebleria.csproj", "{2B6B01F2-346D-41B6-AF38-60D294D610C2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -38,6 +46,22 @@ Global
 		{27AB2776-A41D-461B-8C72-0C5A89F97813}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{27AB2776-A41D-461B-8C72-0C5A89F97813}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{27AB2776-A41D-461B-8C72-0C5A89F97813}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B6F23E4-76DA-4C25-A081-2641E1706273}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B6F23E4-76DA-4C25-A081-2641E1706273}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B6F23E4-76DA-4C25-A081-2641E1706273}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B6F23E4-76DA-4C25-A081-2641E1706273}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C7451F1-5360-4631-B62D-BEC706A73660}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C7451F1-5360-4631-B62D-BEC706A73660}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C7451F1-5360-4631-B62D-BEC706A73660}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C7451F1-5360-4631-B62D-BEC706A73660}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DF1AA97-BF96-4ABB-9A8F-472E5C308D7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DF1AA97-BF96-4ABB-9A8F-472E5C308D7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DF1AA97-BF96-4ABB-9A8F-472E5C308D7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DF1AA97-BF96-4ABB-9A8F-472E5C308D7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B6B01F2-346D-41B6-AF38-60D294D610C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B6B01F2-346D-41B6-AF38-60D294D610C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B6B01F2-346D-41B6-AF38-60D294D610C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B6B01F2-346D-41B6-AF38-60D294D610C2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
